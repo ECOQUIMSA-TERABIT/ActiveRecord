@@ -26,7 +26,7 @@ use \PDOException;
 /**
  * Base del ORM ActiveRecord.
  */
-abstract class BaseRecord
+abstract class BaseRecord extends \stdClass
 {
     
     public const VERSION = '0.5.8';
